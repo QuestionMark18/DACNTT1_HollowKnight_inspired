@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdf7977310913b848a5039f2f3ad9040, type: 3}
+  m_Name: Minion_0
+  m_EditorClassIdentifier: 
+  minionName: Minion_0
+  maxHP: 5
+  damage: 1
+  speed: 1
+  dropItemList:
+  - itemsSO: {fileID: 11400000, guid: f44a0669c9ec65c449a09d022de3597d, type: 2}
+    dropRate: 90000
+    minDrop: 0
+    maxDrop: 0
+  - itemsSO: {fileID: 11400000, guid: 94eb9e9f79586e641b99a6f8ce235f47, type: 2}
+    dropRate: 50000
+    minDrop: 0
+    maxDrop: 0
+  - itemsSO: {fileID: 11400000, guid: 584cf043b340af04c81a0eb08a308816, type: 2}
+    dropRate: 10000
+    minDrop: 0
+    maxDrop: 0
